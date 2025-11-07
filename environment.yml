@@ -1,20 +1,18 @@
-name: bern03
-channels:
-  - conda-forge
+name: bern03 - Asifa
+channels: [conda-forge]
 dependencies:
-  - cartopy
-  - fiona
-  - geopandas
-  - ipykernel
-  - jupyterlab
-  - matplotlib
+  - python=3.11
   - numpy
   - pandas
-  - pyproj
-  - python=3.11
-  - scikit-learn
   - scipy
+  - matplotlib
   - seaborn
+  - scikit-learn
+  - jupyterlab
+  - ipykernel
+  - geopandas
+  - cartopy
   - shapely
-
-prefix: "/opt/miniconda3/envs/bern03"
+  - fiona
+  - pyproj
+python -m pip show numpy pandas scikit-learn seaborn
