@@ -1,18 +1,25 @@
-name: bern03 - Asifa
-channels: [conda-forge]
+name: bern03-climate-Asifa
+channels:
+  - conda-forge
+  - defaults
+
 dependencies:
-  - python=3.11
+  - python=3.10
   - numpy
-  - pandas
   - scipy
+  - pandas
+  - xarray
+  - netcdf4
+  - dask
   - matplotlib
+  - cartopy
   - seaborn
-  - scikit-learn
+  - cmocean
   - jupyterlab
   - ipykernel
-  - geopandas
-  - cartopy
-  - shapely
-  - fiona
-  - pyproj
-python -m pip show numpy pandas scikit-learn seaborn
+  - tqdm
+  - statsmodels
+  - scikit-learn
+  - pip
+  - pip:
+      - eofs
