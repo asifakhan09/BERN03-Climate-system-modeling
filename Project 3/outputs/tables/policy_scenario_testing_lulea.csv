@@ -1,0 +1,9 @@
+ssp,scenario,k_multiplier,p_reach_1.5m_in_6y,expected_years_to_get_100_trees
+SSP126,Baseline,1.0,0.5061728395061729,12
+SSP126,Improved management,1.15,0.9876543209876543,12
+SSP245,Baseline,1.0,0.9012345679012346,12
+SSP245,Improved management,1.15,1.0,6
+SSP370,Baseline,1.0,0.8148148148148148,12
+SSP370,Improved management,1.15,0.9876543209876543,12
+SSP585,Baseline,1.0,0.9259259259259259,12
+SSP585,Improved management,1.15,1.0,6
