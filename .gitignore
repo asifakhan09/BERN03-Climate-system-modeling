@@ -1,2 +1,26 @@
 Data for Project 2/
+<<<<<<< HEAD
 venv/
+=======
+# --- Large climate data files ---
+*.nc
+*.nc4
+*.cdf
+*.grib
+*.grb
+*.grb2
+*.zarr/
+*.h5
+*.hdf5
+
+# MATLAB data
+*.mat
+
+# Compressed archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+>>>>>>> ff97ceb (start pro 4)
